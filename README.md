@@ -1,17 +1,29 @@
 # aruna_test
 
-A new Flutter project.
+ARUNA FLUTTER TEST.
 
-## Getting Started
+## Link
+- [​Github : https://github.com/ZaenalMuzaqqi/aruna-test-flutter/](https://github.com/ZaenalMuzaqqi/aruna-test-flutter/)
+- [​Firebase Web : https://aruna-test-flutter.web.app/#/](https://aruna-test-flutter.web.app/#/)
 
-This project is a starting point for a Flutter application.
+1. Interasksi dengan API menggunakan package Dio  
+2. Menggunakan  State Management bLoc  
+3. Generate model mengguanakn Freezed  
+   
+## Package yang digunakan
 
-A few resources to get you started if this is your first Flutter project:
+- bloc: ^8.1.0
+- bloc_test: ^9.1.0
+- build_runner: ^2.2.1
+- cupertino_icons: ^1.0.2
+- dio: ^4.0.6
+- flutter_bloc: ^8.1.1
+- freezed_annotation: ^2.1.0
+- json_annotation: ^4.7.0
+- nv_cubit_testing: ^0.0.8+1
+- freezed: ^2.1.1
+- json_serializable: ^6.5.0
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-# aruna-test-flutter
+## Tampilan
+<img src="screenshoot/s1.png" height="450" />    <img src="screenshoot/s2.png" height="450" />    <img src="screenshoot/s3.png" height="450" />
