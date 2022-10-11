@@ -62,7 +62,7 @@ class MainPage extends StatelessWidget {
                                 child: Container(
                                   margin: const EdgeInsets.only(bottom: 8),
                                   padding: const EdgeInsets.all(16),
-                                  color: Colors.amber,
+                                  color: Colors.white,
                                   child: Text(
                                     value.blogPostList[index].title,
                                     style: const TextStyle(

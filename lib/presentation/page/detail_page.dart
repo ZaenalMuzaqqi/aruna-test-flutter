@@ -17,19 +17,29 @@ class DetailPage extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.start,
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          Text(
-            blogPostModel!.title,
-            style: const TextStyle(
-              color: Colors.indigo,
-              fontWeight: FontWeight.w600,
-              fontSize: 18,
+          Container(
+            color: Colors.indigo,
+            padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 50),
+            width: double.infinity,
+            child: Text(
+              blogPostModel!.title,
+              style: const TextStyle(
+                color: Colors.white,
+                fontWeight: FontWeight.w600,
+                fontSize: 18,
+              ),
             ),
           ),
-          Text(
-            blogPostModel!.body,
-            style: const TextStyle(
-              color: Colors.black,
-              fontSize: 14.0,
+          Container(
+            color: Colors.white,
+            padding: const EdgeInsets.all(20),
+            width: double.infinity,
+            child: Text(
+              blogPostModel!.body,
+              style: const TextStyle(
+                color: Colors.black,
+                fontSize: 14.0,
+              ),
             ),
           ),
         ],

@@ -5,7 +5,13 @@ import '../domain/blog_post_model.dart';
 class BlogPostRepository {
   static const String _url = "https://jsonplaceholder.typicode.com/posts";
   final Dio _dio = Dio(
-    BaseOptions(headers: {'Content-type': "application/json"}),
+    BaseOptions(
+      headers: {
+        'Content-type': "application/json",
+        'title': 'judul',
+        'Body': 'content of blog post',
+      },
+    ),
   );
 
   Future<Either<String, List<BlogPostModel>>> getBlogPost() async {
